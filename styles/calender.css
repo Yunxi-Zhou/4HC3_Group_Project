@@ -1,0 +1,25 @@
+.calender_cal{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 35%;
+    height: 25%;
+    background: rgb(197, 197, 197);
+}
+.calender_list{
+    position: absolute;
+    top: 3%;
+    left: 41%;
+    right: 3%;
+    bottom: 3%;
+    background: rgb(197, 197, 197);
+}
+
+.calender_details{
+    position: absolute;
+    top: 31%;
+    left: 3%;
+    width: 35%;
+    bottom: 3%;
+    background: rgb(197, 197, 197);
+}

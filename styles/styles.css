@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.tag,
+.bigTag {
+  color: rgb(0, 0, 0);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* Icon */
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.icon--white {
+  fill: white;
+}
+
+/* top Bar */
+.top_bar {
+  width: 100vw;
+  height: 8vh;
+  top: 0;
+  position: fixed;
+  background: #003460;
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.tap_bar_slogan {
+  position: relative;
+  left: 50px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.top_bar_date{
+  position: absolute;
+  right: 240px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.question{
+  position: absolute;
+  right: 120px;
+}
+
+.user_avater {
+  position: absolute;
+  right: 50px;
+}
+
+
+
+/* Navigation Bar */
+.nav{
+  height: 100vh;
+  width: 15.38vh;
+  position: fixed;
+  left: 0;
+  top: 8vh;
+  border-right: 1px solid rgba(34, 36, 38, 0.15);
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 0px 10px rgb(214, 214, 214);
+
+
+}
+.nav_container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.nav_container_title{
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_container_title h2{
+  font-size: 1rem;
+  color: black;
+}
+
+.nav_container_title:hover{
+  /*
+  box-shadow: 1px 1px 5px rgb(159, 159, 159) inset;
+  */
+  background: rgba(159, 159, 159, 0.15);
+}
+
+
+
+.bot_container{
+  width: 100vw;
+  display: flex;
+}
+
+/* Main Container Bar */
+
+.main_container{
+  padding-top: 9vh;
+  margin-left: 15.38vh;
+  height: auto;
+  width: 150vw;
+  background: rgb(255, 255, 255);;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_container_box{
+  height: 80vh;
+  width: 70vw;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px rgb(191, 191, 191);
+  margin: 10px;
+}
+
+.main_container_box h1{
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-bottom-style:solid;
+  border-bottom-color: rgba(159, 159, 159, 0.35);
+}
+
+.main_container_box .container-2{
+  border-left: 50px;
+}

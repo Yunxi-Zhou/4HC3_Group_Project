@@ -1,0 +1,45 @@
+.analysis_top{
+    position: absolute;
+    top: 3%;
+    height: 50%;
+    left: 10%;
+    right: 10%;
+    background: rgb(197, 197, 197);
+}
+
+.analysis_graph{
+    position: absolute;
+    top: 56%;
+    height: 40%;
+    width: auto;
+    left: 10%;
+    width: 38%;
+    background: rgb(197, 197, 197);
+}
+
+.analysis_filter{
+    position: absolute;
+    top: 56%;
+    height: 40%;
+    left: 52%;
+    width: 38%;
+    background: rgb(197, 197, 197);
+}
+
+.analysis_left_btn{
+    position: absolute;
+    top: 45%;
+    height: 10%;
+    left: 2%;
+    width: 6%;
+    background: rgb(0, 255, 76);
+}
+
+.analysis_right_btn{
+    position: absolute;
+    top: 45%;
+    height: 10%;
+    left: 92%;
+    width: 6%;
+    background: rgb(255, 0, 0);
+}

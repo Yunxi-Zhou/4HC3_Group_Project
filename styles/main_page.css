@@ -1,0 +1,52 @@
+.all_container{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.main_budget{
+    position: absolute;
+    width: 63%;
+    height: 30%;
+    top: 3%;
+    left: 3%;
+    background: rgb(197, 197, 197);
+}
+
+.main_today{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 36%;
+    left: 3%;
+    background: rgb(197, 197, 197);
+}
+
+
+.main_overall{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 36%;
+    left: 36%;
+    background: rgb(197, 197, 197);
+}
+
+.main_notification{
+    position: absolute;
+    width: 63%;
+    height: 28%;
+    top: 69%;
+    left: 3%;
+    background: rgb(197, 197, 197);
+}
+
+.main_notebook{
+    position: absolute;
+    top: 3%;
+    left : 69%;
+    right: 3%;
+    bottom: 3%;
+    background: rgb(197, 197, 197);
+}
